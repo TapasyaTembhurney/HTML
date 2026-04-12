@@ -1,3 +1,9 @@
 .second{
     text-align: center ;
 }
+
+#first{
+    background-color: deeppink;
+    border: 2px;
+    border-radius: 10px;
+}   
