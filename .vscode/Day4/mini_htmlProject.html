@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+
+        <h1>University Registration Form</h1>
+
+        <p>Please fill out the form below to register.</p>
+
+        <hr>    
+
+        <h2>Personal Details</h2>
+
+        <br>
+
+        <label for="Fname">First Name:</label>
+        <input type="text" name="FName" id=""   placeholder="e.g. Arjun" required>
+
+         <br><br>
+
+        <label for="LName">Last Name:</label>
+        <input type="text" name="LName" id="LName" placeholder="e.g. Shrinivas ">
+
+        <br><br>
+        <label for="DOB">Date of Birth:</label>
+        <input type="date" name="DOB" id="DOB">
+
+        <br><br>
+        <label for="DOB">Gender:</label>
+        <br>
+
+        <label for="Male">Male</label>
+                <input type="radio" name="DOB" id="DOB">
+
+                <br><br>
+
+        <label for="Female">Female</label>
+        <input type="radio" value="Male" name="DOB" id="DOB">
+
+        <br><br>
+        <label for="Others">Others</label>
+        <input type="radio" name="DOB" value="Others" id="DOB">
+
+        <br><br>
+        <h3>Upload Your Photo:</h3>
+        <input type="file" name="file">
+
+        <hr>
+        <h2>Contact Information</h2>
+
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="you@example.com">
+
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone" placeholder="e.g. 9875253632">
+
+        <br><br>
+
+        <label for="Address">Mailing Address</label>
+          <br>
+        <textarea name="Address" id="Address" rows="10" cols="30" placeholder="Street Address , City, State, ZIP Code"></textarea>
+
+        <br><br>
+
+        <hr>
+
+        <h2>Academic Information</h2>
+
+        <label for="Course">Select Your Course:</label >
+
+        <select name="Course" id="Course">
+            <option value="CSE">CSE</option>
+            <option value="ME">ME</option>
+            <option value="CSE-AI">CSE-AI</option>
+        </select>
+
+        <h3>Extracurricular Interests:</h3>
+        <input type="checkbox" name="interest" id="Sports" value="Sports">
+        <label for="Sports">Sports</label>
+        <br>
+
+        <input type="checkbox" name="interest" id="Music" value="Music">
+        <label for="Music">Music & Arts</label>
+
+        <br>
+
+        <input type="checkbox" name="interest" id="Technology" value="Technology">
+        <label for="Technology">Technology Clubs</label>
+
+        <br>
+        
+        <input type="checkbox" name="interest" id="Volunteering" value="Volunteering">
+        <label for="Volunteering">Volunteering</label>
+        
+        <br>
+        <hr>
+
+        <h2>Create Your Account</h2>
+
+        <label for="pass">Create a Password:</label>
+        <input type="password" name="password" id="pass">
+
+        <br><br> 
+
+        <label for="Security">Security Question:</label>
+        <select name="Security" id="Security">
+            <option>What was your first pet's name?</option>
+            <option value="">What is your favourite car?</option>
+        </select>
+
+        <br><br>
+
+        <label for="secu">Security Answer</label>
+        <input type="text" name="Security" id="secu">
+
+        <!-- <br><br> -->
+        <BR></BR>
+        <input type="checkbox" name="cb" id="cb">
+        <label for="cb">I agree to the Terms and Conditions.</label>
+
+        <hr>
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+
+        <!-- or -->
+
+        <!-- <input type="submit" value="Register">
+        <input type="reset" value="Clear Form"> -->
+
+        <hr>
+        <label for="DC">DressCode</label>
+        <input type="color" id="DC">
+
+        <br>
+        <br>
+        
+        <label for="Range">Rate these Form.</label>
+        <input type="range" name="Range"  id="Range">
+
+        </form>        
+</body>
+</html>
