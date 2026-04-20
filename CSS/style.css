@@ -17,12 +17,19 @@ ul{
 } */
 
 /* id base selection # based selection */
-#First{
+/* #First{
     background-color: cadetblue;
 }
 #Second{
     background-color:darkmagenta;
-}
-#third{
+} */
+
+/* class based selection */
+
+.third{
     background-color: hotpink;
 }
+.fourth{
+    background-color: lightgray;
+}
+
