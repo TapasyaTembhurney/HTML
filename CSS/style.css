@@ -43,7 +43,8 @@ ul{
 /* Any combination of color can be created using "rgb" */
 
 h1{
-    background-color: rgba(19,299,50,0.3);
+    font-size: 50px;
+    background-color: rgba(90, 121, 19, 0.3);
 }
 
 h2{
