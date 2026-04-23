@@ -52,7 +52,9 @@ ul{
 }
 
 li{
-    font-size: 1em; /*20px*/
+    /* font-size: 1em; 20px */
+
+    font-size: 3vh;
 }
 
 h2{
